@@ -7,7 +7,7 @@ body{
     padding: 20px;
 }
 /* All red boxes */
-body > div > div{
+div > div{
     width: 100px;
     height: 100px;
     background-color: red;
@@ -15,18 +15,20 @@ body > div > div{
     justify-content: center;
     align-items: center;
 }
+
+/* containers */
 .container, .container2{
     height: 302px;
     border: 1px solid green;
     display: flex;
 }
-/* first box */
+/* first container */
 .container{
     justify-content: space-around;
     align-items: center;
 }
 
-/* second box */
+/* second container */
 .container2{
     margin-top: 20px;
     gap: 0 2px;
