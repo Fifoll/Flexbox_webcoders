@@ -15,11 +15,13 @@ body > div > div{
     justify-content: center;
     align-items: center;
 }
-/* first box */
-.container{
+.container, .container2{
     height: 302px;
     border: 1px solid green;
     display: flex;
+}
+/* first box */
+.container{
     justify-content: space-around;
     align-items: center;
 }
@@ -27,9 +29,6 @@ body > div > div{
 /* second box */
 .container2{
     margin-top: 20px;
-    height: 302px;
-    border: 1px solid green;
-    display: flex;
     gap: 0 2px;
 }
 
